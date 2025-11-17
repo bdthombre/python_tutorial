@@ -1,0 +1,14 @@
+# Waht we are covering
+#1) Basics of python
+#2) Basics of numpy, pandas, matplotlib and sklearn
+#3) Basics of Langchain and Langgraphs
+#4) Basics of Gradio and Streamlit
+
+
+# before what you cant show..
+# show waht you will be able to show..
+# what you will end up showing at end
+
+## bring you own data...
+
+## 
