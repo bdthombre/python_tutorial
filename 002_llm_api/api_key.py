@@ -1,1 +1,16 @@
-openai = "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"
+"""
+Helper module that exposes the API key used by the notebooks.
+
+Instead of storing the key in source control, read it from the OPENAI_API_KEY
+environment variable. Configure the variable locally (e.g. direnv, uvicorn
+env, shell profile) or load it from a .env file in your IDE.
+"""
+
+import os
+
+openai = os.getenv("OPENAI_API_KEY")
+
+if not openai:
+    raise RuntimeError(
+        "Set the OPENAI_API_KEY environment variable before running the notebooks."
+    )
