@@ -1,9 +1,3 @@
-"""
-Helper module that exposes the API key used by the notebooks.
-
-It first checks the OPENAI_API_KEY environment variable. If that is unset, it
-looks for a sibling .env file (ignored by Git) and loads the key from there.
-"""
 
 from __future__ import annotations
 
