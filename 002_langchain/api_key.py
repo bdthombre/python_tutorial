@@ -1,0 +1,1 @@
+openai = "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"
